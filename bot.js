@@ -47,7 +47,7 @@ if (message.content === prefix+'spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) {
-        message.channel.send(`xVip الاسطورة and Abu da7m حشرة`)
+        message.channel.send(`**Credit Spam , Frame , Credit By Kahrba , Farm Credit By Kahrba, ez Farm - كردت اسبام اسبام اسبام اوف ءف اح اح نار ج **[ " ${x} " ]`)
           .then(m => {
             count++;
           })
@@ -70,7 +70,7 @@ client.on('message', message => {
 if (command == "تحدث") {
 let rank = message.guild.member(message.author).roles.find('name', 'Role.Kahrbaa');
 if (!rank) return message.reply(' ')
-  message.channel.send('#credit @mention money)
+  message.channel.send(args.join("  "))
     message.delete();
   }
 });
